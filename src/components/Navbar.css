@@ -28,6 +28,10 @@
     display: flex;
     align-items: center;
   }
+
+  .fas {
+    padding-left: 10px;
+  }
   
   .fa-typo3 {
     margin-left: 0.5rem;
