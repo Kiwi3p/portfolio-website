@@ -4,11 +4,13 @@ import CardItemv2 from "../CardItemv2";
 import "../Cards.css";
 import "../../App.css";
 import "./Services.css";
+import Game from "./Game";
 
 export default function Services() {
   return (
     <>
-      <div className="about-me">
+      <Game />
+      {/* <div className="about-me">
         <img src="./images/img-1.jpg" />
         <div className="text-content-about">
           <h1>About Me</h1>
@@ -38,7 +40,7 @@ export default function Services() {
             ExpressJs, ES6, HTML & CSS{" "}
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="cards_container">
         <div className="cards__wrapper">
           <ul className="cards__items">

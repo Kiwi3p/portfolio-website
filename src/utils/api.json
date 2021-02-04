@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "text": "So you've found my 'About Me' section... What do you really want to know?",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "What was I like in high school?",
+                "nextText": 4
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Most recently, I've been freelancing in the New York area, creating SVG animations and React websites for large pharmaceutical companies. My background is originally in creative technology, as I majored in Post Production/New Media at Emerson College in 2016. My experimental work always incorporates coding of some kind and has been featured at such places as MoMA PS1, in the Guardian, and Pitchfork. At my last company, I used my com",
+        "options": [
+            {
+                "text": "Fill the coffee machine",
+                "setState": { "coffee": true},
+                "nextText": 4
+            },
+            {
+                "text": "Slap the machine",
+                "nextText": 5
+            },
+            {
+                "text": "Talk to Todd",
+                "nextText": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Todd yammers on and on about his wretched children. 'Christopher is going to state for track','Tourance got into Harvard'... GIVE ME A BREAK!!! How are we going to get out of this conversation?",
+        "options": [
+            {
+                "text": "'Tell him his children are awful'",
+                "nextText": 6
+            },
+            {
+                "text": "'Tell him about the stain on his shirt'",
+                "nextText": 7
+            },
+            {
+                "text": "'Simply just walk away to the coffee machine'",
+                "nextText": 2
+            },
+            {
+                "text": "Install a virus on the office's main server",
+                "nextText": 8
+            }
+        ]
+    }
+]
